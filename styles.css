@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 
-body
+body,
 button {
     font-family: "Lexend Deca" , sans-serif;
     background-color: var(--transparent-white);
@@ -30,7 +30,7 @@ p {
 
 .btn{
     background-color: #fff;
-    border: 2px solid;
+    border: 2px solid #fff;
     border-radius: 30px;
     padding: 10px 20px;
     cursor: pointer;
@@ -43,24 +43,24 @@ p {
     border-radius:10px 10px 0 0 ;
     color: #fff;
 }
-.suvs {
-    background: var(--dark-cyan);
-    color: #fff;
-
-}
-.luxury {
-    background: var(--very-dark-cyan);
-    border-radius:0 0 10px 10px ;
-    color: #fff;
-
-}
 .sedans .btn{
     background-color: var(--bright-orange);
 }
 
+.suvs {
+    background: var(--dark-cyan);
+    color: #fff;
+}
 .suvs .btn{
     background-color: var(--dark-cyan);
 }
+
+.luxury {
+    background: var(--very-dark-cyan);
+    border-radius:0 0 10px 10px ;
+    color: #fff;
+}
+
 
 .luxury .btn{
     background-color: var(--very-dark-cyan);
@@ -94,6 +94,14 @@ p {
 }
 
 
+.attribution {
+    font-size: 11px; text-align: center; 
+    margin: 50px;
+   }
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+   }
 
 
 @media (min-width: 992px) {
@@ -124,12 +132,3 @@ p {
 } 
 
 
-
-.attribution {
-     font-size: 11px; text-align: center; 
-     margin: 50px;
-    }
-
-.attribution a {
-     color: hsl(228, 45%, 44%); 
-    }
